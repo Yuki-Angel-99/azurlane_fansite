@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home Page</title>
+	<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+  </head>
+  <body>
+  <div class="dropdown">
+    <span><button class="btn default">Eagle Union</button>
+	<button class="btn success">Royal Navy</button>
+    <button class="btn info">Sakura Empire</button>
+    <button class="btn warning">Eastern Radiance</button>
+    <button class="btn danger">Iron Blood</button>
+    <button class="btn default">Iris Libre</button>
+	<button class="btn default">Vichya Dominion</button></span>
+	<div class="dropdown-content">
+	<p><button class="btn default">Submarine</button>
+	<p><button class="btn success">Destroyer</button>
+    <p><button class="btn info">Light Cruiser</button>
+    <p><button class="btn warning">Heavy Cruiser</button>
+    <p><button class="btn danger">Light Aircraft Carrier</button>
+    <p><button class="btn default">Aircraft Carrier</button>
+	<p><button class="btn default">Battleship</button>
+	</div>
+  </div>
+  </body>
+</html>
